@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras | ElecDom</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/compras.css">
+</head>
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <img src="../img/Logo2.png">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/Productos.html">Productos</a></li>
+                    <li><a href="../pages/Tiendas.html">Tiendas</a></li>
+                    <li><a href="../pages/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="boton">
+                <button onclick="window.location.href='../pages/compras.html'">Carrito de compras</button>
+                <button onclick="window.location.href='../pages/login.html'">Login</button>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <article class="Bienvenida">
+            <img src="../img/Header.jpg">
+        </article>
+        <article class="TusDatos">
+            <p><h1>Paso 1 : tus datos</h1></p>
+            <br><br>
+            <section class="Registro">
+                <table class="Tregistro">
+                    <tr>
+                        <td>
+                            Registro
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="misDatos" name="val">
+                            <label for="misDatos">Guardar mis datos</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="invitado" name="val">
+                            <label for="invitado">Comprar como invitado</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="cuenta" name="val">
+                            <label for="cuenta">Ya tengo cuenta</label>
+                        </td>
+                    </tr>
+                </table>
+                <table class="Tdetalles">
+                    <tr>
+                        <td class="TituloDetalles">
+                            Tus Detalles
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Nombre completo:</label>
+                            <input type="text" style="width: 100px;" placeholder="Nombre completo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Telefono:</label>
+                            <input type="text" style="width: 80px;" placeholder="5454654">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                            <input type="text" style="width: 120px;" placeholder="tucorreo@correo.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Direccion:</label>
+                            <input type="text" style="width: 100px;" placeholder="Direccion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Departamento:</label>
+                            <select name="seleccionar">
+                                <option selected>Seleccione un departamento</option>
+                                <option>Guatemala</option>
+                                <option>Chiquimula</option>
+                                <option>Peten</option>
+                                <option>Zacapa</option>
+                                <option>Solola</option>
+                                <option>Jalapa</option>
+                                <option>Escuintla</option>
+                                <option>Quetzaltenango</option>
+                                <option>Alta Verapaz</option>
+                                <option>Baja verapaz</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Municipio:</label>
+                            <input type="text" style="width: 120px;" placeholder="Ingrese un municipio">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Cliente:</label>
+                            <input type="text" style="width: 120px;" placeholder="Ingrese Nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>NIT:</label>
+                            <input type="text" style="width: 120px;" placeholder="Ingrese NIT sin Guion">
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <article class="TuCompra">
+            <p><h1>Paso 2: Tu Compra</h1></p>
+            <br><br>
+            <section class="Compras">
+                <table class="Tcompras">
+                    <tr>
+                        <th class="envio">
+                            Metodo de envio
+                        </th>
+                        <th class="pago">
+                            Metodo de pago
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="Expreso" name="val1">
+                            <label for="Expreso">Cargo Expreso - Q 35.00</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="contraentrega" name="val2">
+                            <label for="contraentrega">Pago contra entrega</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="bodega" name="val1">
+                            <label for="bodega">Recoger en bodega - Q 0.00</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="deposito" name="val2">
+                            <label for="deposito">Transferencia o deposito bancario</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="entrega" name="val1">
+                            <label for="entrega">Entrega en 2 a 3 horas - Q 30.00</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="tarjeta" name="val2">
+                            <label for="tarjeta">Tarjeta de credito o debito</label>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="Tproductos">
+                    <tr>
+                        <th>
+                            No.
+                        </th>
+                        <th>
+                            Imagen
+                        </th>
+                        <th>
+                            producto
+                        </th>
+                        <th>
+                            Cantidad
+                        </th>
+                        <th>
+                            Precio U
+                        </th>
+                        <th>
+                            Sub-Total
+                        </th>
+
+                    </tr>
+                    <tr class="Fproductos">
+                        <td>
+                            <label>1</label>
+                        </td>
+                        <td><img src="../img/oferta1.jpg" alt=""></td>
+                        <td><label>Bombilla LED 10W</label></td>
+                        <td><label>3</label>
+                            <button>M</button>
+                            <button>X</button>
+                        </td>
+                        <td><label>Q 25.00</label></td>
+                        <td><label>Q 75.00</label></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

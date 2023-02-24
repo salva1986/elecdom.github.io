@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background-color: blue; */
+}
+.ancho{
+    width: 95%;
+    height: 80px;
+    /* background-color: red; */
+    margin: auto;
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    /* background-color: yellow; */
+    float: left;
+}
+.logo img{
+    height: 100%;
+    margin-left: 5px;
+}
+nav{
+    width: 55%;
+    height: 80px;
+    /* background-color: blueviolet; */
+    float: left;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.boton{
+    width: 30%;
+    height: 80px;
+    /* background-color: cadetblue; */
+    float: left;
+}
+.boton button{
+    margin-top: 18px;
+    padding: 10px;
+}
+main{
+    width: 100%;
+    height: 1200px;
+    /* background-color: darkgreen; */
+    
+    
+}
+.Bienvenida{
+    width: 80%;
+    height: 300px;
+    /* background-color: black; */
+    margin: auto;
+}
+.Bienvenida img{
+    width: 100%;
+    height: inherit;
+}
+.Ofertas{
+    width: 80%;
+    height: 500px;
+    /* background-color: rgb(104, 9, 107); */
+    margin: auto;
+}
+.oferta1{
+    width: 33.33%;
+    height: 500px;
+    /* background-color: darkslateblue; */
+    float: left;
+}
+.oferta1 img{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.oferta1 p {
+    text-align: justify;
+    padding: 10px;
+}
+.oferta1 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.oferta2{
+    width: 33.33%;
+    height: 500px;
+    /* background-color: rgb(28, 14, 116); */
+    float: left;
+}
+.oferta2 img{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.oferta2 p {
+    text-align: justify;
+    padding: 10px;
+}
+.oferta2 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.oferta3{
+    width: 33.33%;
+    height: 500px;
+    /* background-color: rgb(168, 157, 243); */
+    float: left;
+}
+.oferta3 img{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.oferta3 p {
+    text-align: justify;
+    padding: 10px;
+}
+.oferta3 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.Tutorial{
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.texto{
+    width: 35%;
+    height: 400;
+    /* background-color: teal; */
+    float: left;
+}
+.texto p {
+    margin-top: 100px;
+    padding: 12px;
+    text-align: justify;
+}
+.video{
+    width: 65%;
+    height: 400px;
+    /* background-color: coral; */
+    margin-top: 100px;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(204, 201, 198);
+    margin-top: 100px;
+}
