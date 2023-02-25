@@ -1,0 +1,145 @@
+.Productos {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    padding: 0px;
+}
+.producto1{
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto1 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto1 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto1 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+
+.producto2{
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto2 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto2 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto2 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.producto3{
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto3 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto3 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto3 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.producto4{
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto4 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto4 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto4 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+
+.producto5 {
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto5 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto5 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto5 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.producto6 {
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    float: left;
+}
+.producto6 img{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+.producto6 p {
+    width: 90%;
+    padding: 12px;
+}
+.producto6 button{
+    padding: 8px;
+    margin-left: 12px;
+}
+.paginas {
+    width: 90%;
+    padding-left: 500px;
+    background-color: blue;
+}

@@ -1,0 +1,86 @@
+.TusDatos{
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 800px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 60px;
+
+}
+.TusDatos h1 {
+    text-align: center;
+}
+.TuCompra{
+    /* background-color: brown; */
+    width: 50%;
+    height: 800px;
+    float: left;
+    margin-top: 60px;
+}
+.TuCompra h1{
+    text-align: center;
+
+}
+.Registro{
+    width: 100%;
+    background-color: aqua;
+    height: 35px;
+    text-align: justify;
+}
+.Tregistro{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+
+}
+
+.Tdetalles {
+    background-color: aquamarine;
+    width: 100%;
+    height: 330px;
+    margin-top: 40px;
+}
+.TituloDetalles{
+    width: 100%;
+    background-color: aqua;
+    height: 35px;
+    text-align: justify;
+}
+.Tcompras{
+    width: 100%;
+    height: 150px;
+    background-color: aquamarine;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.envio{
+    height: 35px;
+    background-color: aqua;
+}
+.pago{
+    height: 35px;
+    background-color: aqua;  
+}
+.Tproductos{
+    width: 100%;
+}
+.Tproductos img{
+    width: 100px;
+    margin-top: 40px;
+    
+}
+.Tproductos label {
+    text-align: justify;
+}
+
+.Tproductos tr td {
+    text-align: center;
+}
+.Tproductos th{
+
+    height: 35px;
+    background-color: aqua;
+}
+.Fproductos{
+    background-color: aquamarine;
+}
